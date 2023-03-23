@@ -18,7 +18,7 @@ hassio_role: manager
 stdin: true
 map:
   - backup:rw
-image: thomasmauerer/samba-backup-{arch}
+image: thomasmauerer/samb-backup-{arch}
 init: false
 options:
   host: null
